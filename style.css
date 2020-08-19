@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(221, 197, 103);
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: rgb(250, 239, 223);
+    box-shadow: 0px 0px 6px 1px black;
+}
+
+.rows {
+    border: solid 1px rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 0 auto 12px auto;
+}
+
+button {
+    width: auto;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 6px 1px rgb(12, 12, 12) ;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    outline: none;
+}
